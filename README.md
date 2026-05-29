@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://www.ru.nl/sites/default/files/styles/content_full/public/2023-10/RU_drupal_logo_RU_0.png.webp" alt="Radboud University Logo" style="height: 80px; width: auto; margin-bottom: 20px;" />
   
-  <h1 style="margin-top: 0;">CBacterial-pathogens-share-predicted-MHC-II-epitopes</h1>
+  <h1 style="margin-top: 0;">Bacterial-pathogens-share-predicted-MHC-II-epitopes</h1>
   <p><em>High-throughput computational pipeline for identifying conserved T-cell epitopes in respiratory pathogens.</em></p>
   <p>
     Course: <strong>Bioinformatics & Computational Biology</strong><br>
