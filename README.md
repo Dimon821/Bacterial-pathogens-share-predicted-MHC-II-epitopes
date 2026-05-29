@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://www.ru.nl/sites/default/files/styles/content_full/public/2023-10/RU_drupal_logo_RU_0.png.webp" alt="Radboud University Logo" style="height: 80px; width: auto; margin-bottom: 20px;" />
   
-  <h1 style="margin-top: 0;">Cross-Reactive Epitope Discovery</h1>
+  <h1 style="margin-top: 0;">CBacterial-pathogens-share-predicted-MHC-II-epitopes</h1>
   <p><em>High-throughput computational pipeline for identifying conserved T-cell epitopes in respiratory pathogens.</em></p>
   <p>
     Course: <strong>Bioinformatics & Computational Biology</strong><br>
@@ -25,7 +25,7 @@ The analysis is structured into a four-stage computational pipeline:
 
 
 
-1. **Proteome Acquisition:** Extraction of target bacterial proteomes from UniRef.
+1. **Proteome Acquisition:** Extraction of target bacterial proteomes from UniProt.
 2. **N-mer Extraction:** Systematic generation of overlapping peptide n-mers using sliding window algorithms.
 3. **Overlap Mapping:** Cross-species frequency analysis to identify conserved peptide sequences.
 4. **Immunogenicity Prediction:** Assessment of peptide binding affinity to MHC-II allelic variants using NetMHCIIpan-4.0.
@@ -40,7 +40,4 @@ The pipeline utilizes a modular Python architecture to process large-scale prote
 ## Getting Started
 
 ### Prerequisites
-Ensure your environment is configured for Python 3.8+ and that the NetMHCIIpan-4.0 software is installed locally. Install the required data science dependencies:
-
-```bash
-pip install numpy pandas scipy scikit-learn matplotlib openpyxl
+Ensure your environment is configured for Python 3.8+ and that the NetMHCIIpan-4.0 software is installed locally.
